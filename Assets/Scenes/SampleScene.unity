@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18143691, g: 0.22706603, b: 0.30739087, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -156,6 +156,10 @@ Transform:
   - {fileID: 846725350}
   - {fileID: 2095841942}
   - {fileID: 346223582}
+  - {fileID: 522397869}
+  - {fileID: 2138258414}
+  - {fileID: 197843469}
+  - {fileID: 1019907485}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &72916163
@@ -368,7 +372,7 @@ Transform:
   m_LocalScale: {x: 1, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 44947030}
   m_LocalEulerAnglesHint: {x: 15.799, y: 0, z: 0}
 --- !u!1 &346223581
 GameObject:
@@ -499,14 +503,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522397868}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.6, y: 1.34, z: 4.83}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1663781424}
   - {fileID: 975531382}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 44947030}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -595,13 +599,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: -0.29723406, y: -0.6016479, z: 0.2469692, w: -0.69905514}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 45.459, y: -278.142, z: 1.011}
 --- !u!1 &846725349
 GameObject:
   m_ObjectHideFlags: 0
@@ -1113,7 +1117,7 @@ Transform:
   m_LocalScale: {x: 1, y: 200, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 44947030}
   m_LocalEulerAnglesHint: {x: 14.593, y: 0, z: 0}
 --- !u!1 &1258455534
 GameObject:
@@ -1535,7 +1539,7 @@ Transform:
   m_LocalScale: {x: 1, y: 6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 44947030}
   m_LocalEulerAnglesHint: {x: 15.799, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -1546,7 +1550,3 @@ SceneRoots:
   - {fileID: 1258455538}
   - {fileID: 947531813}
   - {fileID: 44947030}
-  - {fileID: 522397869}
-  - {fileID: 2138258414}
-  - {fileID: 197843469}
-  - {fileID: 1019907485}
